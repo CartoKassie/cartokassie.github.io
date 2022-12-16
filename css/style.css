@@ -1,0 +1,203 @@
+/***** NAVBAR *****/
+.navbar-expand-sm {
+  background-color: #476f66;
+  border-radius: 0;
+  background-image: none;
+}
+
+#jumbotron {
+  background-color: #7ea298;
+  border-radius: 0;
+  background-image: none;
+}
+
+#aboutheader {
+  background-color: #205873;
+  border-radius: 0;
+  background-image: none;
+}
+
+
+/** LINKS **/
+/* unvisited link */
+a:link {
+  color: #7ea298;
+}
+
+
+
+h1 {
+    font-family: 'Nunito', sans-serif;
+        font-size: 50px;
+        font-weight: 800;
+        letter-spacing: 2px;
+        color: #fff
+}
+
+h2 {
+    font-family: 'Nunito', sans-serif;
+        font-size: 40px;
+        font-weight: 800;
+        letter-spacing: 1px;
+        color: #fff
+}
+
+h3 {
+    font-family: 'Nunito', sans-serif;
+        font-size: 30px;
+        font-weight:700;
+        letter-spacing: 2px;
+        color: #fff     
+}
+
+h4 {
+    font-family: 'Nunito', sans-serif;
+        font-size: 25px;
+        font-weight:bold;
+        letter-spacing: 2px;
+        color: #fff     
+}
+
+h5 {
+    font-family: 'Nunito', sans-serif;
+        font-size: 20px;
+        font-weight: 500;
+        letter-spacing: 2px;            
+}
+
+h6 {
+    font-family: 'Nunito', sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        letter-spacing: 1px;
+        color: #476f66
+}
+
+p {
+        font-family: 'Nunito', sans-serif;
+        font-size: 15px;
+        color: #fff
+      }
+
+
+
+
+/***portfolio**/
+
+#portfolio {
+  background-color: #205873;
+  border-radius: 0;
+  background-image: none;
+    
+}
+
+.portfolio-title{
+    color: #205873;
+}
+
+.portfolio-descr{
+    color: #476f66;
+}
+
+#back-button {
+    background-color: #205873;
+    color: #fff} 
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color: #476f66;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: #476f66;
+}
+
+/** Portfolio Cards **/
+
+body{
+  font-family: 'Nunito', sans-serif;
+  padding: 50px;
+}
+
+.card:hover{
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+
+
+.banner-content {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  right: 20px;
+  text-align: center;
+  color: #205873;
+    font-weight: 700;
+    font-size: 18px;
+  display:none;
+}
+
+.card-img-overlay {
+  width: 100%;
+  border-radius: calc(0.3rem - 0px);
+    border-color: #9d4931
+}
+
+.card{
+   border-color: #ccc8bc; 
+   border-width: 2px;   
+}
+.card-img:hover {
+  opacity: 0.2;
+}
+
+.card-img:hover + .banner-content {
+  display: block;
+}
+
+/**resume**/
+#resume{
+    color: #205873;
+}
+
+hr {
+  height: 2px;
+  background-color: #476f66;
+  border: none;
+}
+
+/***FOOTER***/
+
+#footer {
+  background-color: #7ea298;
+  border-radius: 0;
+  background-image: none;
+    color: #476f66;
+}
+
+.fa-github {
+  color: #476f66;
+}
+
+.fa-linkedin {
+  color: #476f66;
+}
+
+.fa-square-twitter {
+  color: #476f66;
+}
+
+/**main info**/
+body {
+    background-color: #ccc8bc !important;    
+    font-family: 'Nunito', sans-serif;
+    font-size: 15px;
+
+           
+      }
+      
+
